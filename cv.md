@@ -10,11 +10,11 @@
   <br>
 I want to learn Front-End Development in RSSchool!
   <br>
-<q>javascript
+<blockquote>javascript
 const func = (num) => {
   if (num > 0) {
     return num - 1;
   }
   return num + 1;
 };
-</q>
+</blockquote>
