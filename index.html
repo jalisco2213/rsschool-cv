@@ -1,40 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
 <body>
-    <h1>Max Chayka</h1>
-    <h2>Front-end Developer</h2>
-    <hr>
-    <h3>Contacts:</h3>
-    <ul>
-        <li>Discord: халиско#5886</li>
-        <li>E-mail: sikretu228@gmail.com</li>
-        <li>Tel: +380677727202</li>
-    </ul>
-    <hr>
-    <h3>About myself:</h3>
-    <p>I want to learn Front-End Development in RSSchool! I believe, that my ability to learn and to gain new skills
-        will lead me through this path of becoming a proficient Frontend Developer.</p>
-    <hr>
-    <h3>Code example</h3>
-    <pre><code>
-            javascript
-    const func = (num) => {
-     if (num > 0) {
-    return num - 1;
-      }
-      return num + 1;
-    };
-    </code></pre>
-    <hr>
-    <h3>Work experience:</h3>
-    <p>Nothing yet…</p>
-    <hr>
-    <h3>Education and courses:</h3>
-    <p>CS50 video course</p>
-    <p>JS, CSS, HTML, Git video courses on YouTube channel Glo Academy</p>
-    <p>JavaScript https://learn.javascript.ru/</p>
-    <hr>
-    <h3>Language:</h3>
-    <p>Ukrainian</p>
-    <p>Russian</p>
-    <p>English level - A2</p>
+
+<div class="container-lg px-3 my-5 markdown-body">
+      
+      <h1><a href="https://annavoloshina.github.io/rsschool-cv/">rsschool-cv</a></h1>
+      
+
+      <h1 id="hanna-voloshyna">Max Chayka</h1>
+<h3 id="junior-frontend-developer">Frontend Developer<a class="anchorjs-link " href="#junior-frontend-developer" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<hr>
+
+<h3 id="contact-information">Contact information:<a class="anchorjs-link " href="#contact-information" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<p><strong>Phone:</strong> +38 068 7727202<br>
+<strong>E-mail:</strong> sikretu228@gmail.com<br>
+<hr>
+
+<h3 id="briefly-about-myself">About Myself:<a class="anchorjs-link " href="#briefly-about-myself" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<p>I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a proficient Frontend Developer.<br></p>
+
+<hr>
+
+<h3 id="skills-and-proficiency">Skills and Proficiency:<a class="anchorjs-link " href="#skills-and-proficiency" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li>HTML5, CSS3</li>
+  <li>JavaScript Basics</li>
+  <li>VS Code</li>
+  <li>Adobe Photoshop</li>
+</ul>
+
+<hr>
+
+<h3 id="code-example">Code example:<a class="anchorjs-link " href="#code-example" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<p><strong>Peak array index KATA from CODEWARS:</strong></em></p>
+
+<div class="language-javascript highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">peak</span><span class="p">(</span><span class="nx">arr</span><span class="p">)</span> <span class="p">{</span>
+
+  <span class="k">for</span> <span class="p">(</span><span class="kd">let</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">length</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
+    <span class="kd">let</span> <span class="nx">leftSum</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span> <span class="nx">i</span><span class="p">).</span><span class="nx">reduce</span><span class="p">((</span><span class="nx">accumulator</span><span class="p">,</span> <span class="nx">currentValue</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">accumulator</span> <span class="o">+</span> <span class="nx">currentValue</span><span class="p">);</span>
+    <span class="kd">let</span> <span class="nx">rightSum</span> <span class="o">=</span> <span class="nx">arr</span><span class="p">.</span><span class="nx">slice</span><span class="p">(</span><span class="nx">i</span> <span class="o">+</span> <span class="mi">1</span><span class="p">).</span><span class="nx">reduce</span><span class="p">((</span><span class="nx">accumulator</span><span class="p">,</span> <span class="nx">currentValue</span><span class="p">)</span> <span class="o">=&gt;</span> <span class="nx">accumulator</span> <span class="o">+</span> <span class="nx">currentValue</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">leftSum</span> <span class="o">===</span> <span class="nx">rightSum</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">i</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+  <span class="k">return</span> <span class="o">-</span><span class="mi">1</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<hr>
+
+<h3 id="courses">Courses:<a class="anchorjs-link " href="#courses" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li>HTML and CSS Tutorials
+    <li>JavaScript Manual on <a href="https://learn.javascript.ru/">learnjavascript.ru</a> (in progress)</li>
+  <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
+</ul>
+
+<hr>
+
+<h3 id="languages">Languages:<a class="anchorjs-link " href="#languages" aria-label="Anchor" data-anchorjs-icon="" style="font: 1em / 1 anchorjs-icons; padding-left: 0.375em;"></a></h3>
+
+<ul>
+  <li>English - Intermediate
+  <li>Russian - Native</li>
+  <li>Ukrainian - Intermediate</li>
+</ul>
+
+
+      
+    </div>
 
 </body>
+</html>
