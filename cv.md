@@ -1,2 +1,3 @@
 #Max Chayka
-#Front-end Developer
+<hr>
+##Front-end Developer
