@@ -7,8 +7,7 @@
 <li>E-mail: sikretu228@gmail.com</li>
 <li>Tel: +380677727202</li>
 <h3>About myself:</h3>
-  <br>
-I want to learn Front-End Development in RSSchool!
+<p>I want to learn Front-End Development in RSSchool!</p>
   <br>
 <blockquote>javascript
 const func = (num) => {
