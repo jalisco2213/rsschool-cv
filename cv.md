@@ -1,3 +1,3 @@
-#Max Chayka
+<h1>Max Chayka</h1>
 <hr>
-##Front-end Developer
+<h2>Front-end Developer</h2>
