@@ -9,14 +9,14 @@
 <h3>About myself:</h3>
 <p>I want to learn Front-End Development in RSSchool!</p>
   <h3>Code example</h3>
-<p><blockquote>javascript
+<p><code>javascript
 const func = (num) => {
   if (num > 0) {
     return num - 1;
   }
   return num + 1;
 };
-</blockquote></p>
+</code></p>
 <h3>Work experience:</h3>
 <p>Nothing yet…</p>
 
