@@ -5,63 +5,304 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CV</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container header-container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item is-active">
+                        <a href="#about_me" class="nav-link">About me</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#abo_edu" class="nav-link">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#skil_info" class="nav-link">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Code</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="" class="nav-link">Contacts</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-    <div class="container">
+    <main>
+        <section class="section-hero">
+            <div class="container hero-container">
+                <div class="section-photo-hero">
+                    <figure class="section-hero-photo">
+                        <img src="/img/photo_2022-12-12_13-15-10.jpg" class="section-photo" width="300" alt="photo">
+                    </figure>
+                </div>
+                <div class="section-text">
+                    <h1 class="section-hero-heading">
+                        MAX<br>CHAYKA
+                    </h1>
+                    <p class="section-hero-description">
+                        FRONT-END DEVELOPER
+                    </p>
+                </div>
+                <a href="#about_me" class="down-link">
+                    <xml version="1.0" ?><svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+                            <title />
+                            <path
+                                d="M81.8457,25.3876a6.0239,6.0239,0,0,0-8.45.7676L48,56.6257l-25.396-30.47a5.999,5.999,0,1,0-9.2114,7.6879L43.3943,69.8452a5.9969,5.9969,0,0,0,9.2114,0L82.6074,33.8431A6.0076,6.0076,0,0,0,81.8457,25.3876Z" />
+                        </svg>
+                </a>
+            </div>
+        </section>
 
-        <h1><a href="https://jalisco2213.github.io/rsschool-cv/">rsschool-cv</a></h1>\
- 
+        <section class="about_me" id="about_me">
+            <div class="about_me_history">
+                <h2 class="about_me_h">
+                    About me
+                </h2>
+                Hi!
+                My name is Max, I'm 19 years old. I live in Ukraine, in the first capital - Kharkov. I like to study and
+                learn something new. For the past six months I have been learning front-end development and learning
+                something new for myself every day.
+                I believe my ability to learn and acquire new skills will take me down this road to development success.
+            </div>
+            <a href="#abo_edu" class="down-link_second">
+                <xml version="1.0" ?><svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+                        <title />
+                        <path
+                            d="M81.8457,25.3876a6.0239,6.0239,0,0,0-8.45.7676L48,56.6257l-25.396-30.47a5.999,5.999,0,1,0-9.2114,7.6879L43.3943,69.8452a5.9969,5.9969,0,0,0,9.2114,0L82.6074,33.8431A6.0076,6.0076,0,0,0,81.8457,25.3876Z" />
+                    </svg>
+            </a>
+        </section>
 
-        <h1 id="max-chayka">Max Chayka</h1>
-        <h3 id="rontend-developer">Frontend Developer</h3>
+        <section class="education" id="abo_edu">
+            <div class="about_me_history">
+                <h2 class="about_me_h">
+                    Education
+                </h2>
+                2019- <br>
+                Student of higher educational institution "NTU KhPI"
+            </div>
+            <a href="#skil_info" class="down-link_second">
+                <xml version="1.0" ?><svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+                        <title />
+                        <path
+                            d="M81.8457,25.3876a6.0239,6.0239,0,0,0-8.45.7676L48,56.6257l-25.396-30.47a5.999,5.999,0,1,0-9.2114,7.6879L43.3943,69.8452a5.9969,5.9969,0,0,0,9.2114,0L82.6074,33.8431A6.0076,6.0076,0,0,0,81.8457,25.3876Z" />
+                    </svg>
+            </a>
+        </section>
 
-        <hr>
+        <section class="skills" id="skil_info">
+            <div class="about_me_history">
+                <h2 class="about_me_h">
+                    Skills
+                </h2>
+                <ul class="section-do-list">
+                    <li class="section-do-item">
+                        <xml version="1.0" ?><svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <title />
+                                <path
+                                    d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z" />
+                            </svg>
+                            <strong class="section-do-item-heading">
+                                HTML5, CSS3
+                            </strong>
+                            <p class="section-do-item-description">
+                                HTML and CSS Tutorials
+                            </p>
+                    </li>
+                    <li class="section-do-item">
+                        <xml version="1.0" ?><svg class="icon icon-tabler icon-tabler-brand-javascript" fill="none"
+                                height="100" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" viewBox="0 0 24 24" width="100" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M0 0h24v24H0z" fill="none" stroke="none" />
+                                <path d="M20 4l-2 14.5l-6 2l-6 -2l-2 -14.5z" />
+                                <path d="M7.5 8h3v8l-2 -1" />
+                                <path
+                                    d="M16.5 8h-2.5a0.5 .5 0 0 0 -.5 .5v3a0.5 .5 0 0 0 .5 .5h1.423a0.5 .5 0 0 1 .495 .57l-.418 2.93l-2 .5" />
+                            </svg>
+                            <strong class="section-do-item-heading">
+                                JavaScript Basics
+                            </strong>
+                            <p class="section-do-item-description">
+                                JavaScript Manual on <a href="https://learn.javascript.ru/"
+                                    style="color: #787878">learnjavascript.ru</a>
 
-        <h3 id="contact-information">Contact information:</h3>
+                            </p>
+                    </li>
+                    <li class="section-do-item">
+                        <xml version="1.0" ?><svg height="100" viewBox="0 0 24 24" width="100"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="m21.29 4.1-4.12-2a1.36 1.36 0 0 0-.48-.1h-.08a1.18 1.18 0 0 0-.72.24l-.14.12-7.88 7.19L4.44 7a.83.83 0 0 0-.54-.17.88.88 0 0 0-.53.17l-1.1 1a.8.8 0 0 0-.27.61.84.84 0 0 0 .27.62l3 2.71-3 2.72a.84.84 0 0 0 0 1.23l1.1 1a.89.89 0 0 0 .6.22.93.93 0 0 0 .47-.17l3.43-2.61 7.88 7.19a1.2 1.2 0 0 0 .76.36h.17a1 1 0 0 0 .49-.12l4.12-2a1.25 1.25 0 0 0 .71-1.1V5.23a1.26 1.26 0 0 0-.71-1.13zM17 16.47l-6-4.53 6-4.53z" />
+                            </svg>
+                            <strong class="section-do-item-heading">
+                                VS Code
+                            </strong>
+                            <p class="section-do-item-description">
+                                Tutorials on youtube
+                            </p>
+                    </li>
+                    <li class="section-do-item">
+                        <xml version="1.0" ?><svg height="64" viewBox="0 0 64 64" width="64"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <style>
+                                        .a {
+                                            fill: none;
+                                            stroke: #000;
+                                            stroke-linecap: round;
+                                            stroke-linejoin: round;
+                                            stroke-width: 4px;
+                                        }
+                                    </style>
+                                </defs>
+                                <title />
+                                <g>
+                                    <path class="a"
+                                        d="M18,46V18H30a4.00018,4.00018,0,0,1,4,4v4a4.00018,4.00018,0,0,1-4,4H18" />
+                                    <path class="a"
+                                        d="M46,34H36a2.00008,2.00008,0,0,0-2,2v2a2.00008,2.00008,0,0,0,2,2h8a2.0001,2.0001,0,0,1,2,2v2a2.0001,2.0001,0,0,1-2,2H34" />
+                                    <rect class="a" height="65" rx="2" ry="2" width="65" x="10" y="10" />
+                                </g>
+                            </svg>
+                            <strong class="section-do-item-heading">
+                                Adobe Photoshop
+                            </strong>
+                            <p class="section-do-item-description">
+                                Tutorials on youtube
+                            </p>
+                    </li>
+                </ul>
+                <h2 class="about_me_h">
+                    Language:
+                </h2>
+                English - Intermediate <br>
+                Ukrainian - Native <br>
+                Russian - Intermediate <br>
+            </div>
 
-        <p><strong>Phone:</strong> +38 068 7727202<br>
-            <strong>E-mail:</strong> sikretu228@gmail.com<br></p>
-            <hr>
+            <a href="#skill_info" class="down-link_second">
+                <xml version="1.0" ?><svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+                        <title />
+                        <path
+                            d="M81.8457,25.3876a6.0239,6.0239,0,0,0-8.45.7676L48,56.6257l-25.396-30.47a5.999,5.999,0,1,0-9.2114,7.6879L43.3943,69.8452a5.9969,5.9969,0,0,0,9.2114,0L82.6074,33.8431A6.0076,6.0076,0,0,0,81.8457,25.3876Z" />
+                    </svg>
+            </a>
+        </section>
 
-        <h3 id="briefly-about-myself">About Myself</h3>
+        <section class="code_ex" id="code_example">
+            <div class="about_me_history">
+                <h2 class="about_me_h">
+                    Code example
+                </h2>
+                <pre>
+                    <code>
+const counterNode = document.querySelector('.js-counter');
+const incBtnNode = document.querySelector('js-inc-btn')
+const clearBtnNode = document.querySelector('js-clear-btn')
 
-        <p>I believe, that my ability to learn and to gain new skills will lead me through this path of becoming a
-            proficient Frontend Developer.</p>
+let counter = 0;
 
-        <hr>
+function render() {
+    counterNode.innerText = counter;
+}
 
-        <h3 id="skills-and-proficiency">Skills and Proficiency</h3>
+function increment() {
+    counter += 1;
+}
 
-        <ul>
-            <li>HTML5, CSS3</li>
-            <li>JavaScript Basics</li>
-            <li>VS Code</li>
-            <li>Adobe Photoshop</li>
-        </ul>
+function clear() {
+    counter = 0;
+    render();
+}
 
-        <hr>
+incBtnNode.addEventListener('click', () => {
+    increment();
+    render();
+})
 
-        <h3 id="code-example">Code example:</h3>
+clearBtnNode.addEventListener('click', () => {
+    clear();
+    render();
+})
 
-        <p><strong>Peak array index KATA from CODEWARS:</strong></p>
+render();
+                    </code>
+                </pre>
+            </div>
+            <a href="#cont" class="down-link_second">
+                <xml version="1.0" ?><svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg">
+                        <title />
+                        <path
+                            d="M81.8457,25.3876a6.0239,6.0239,0,0,0-8.45.7676L48,56.6257l-25.396-30.47a5.999,5.999,0,1,0-9.2114,7.6879L43.3943,69.8452a5.9969,5.9969,0,0,0,9.2114,0L82.6074,33.8431A6.0076,6.0076,0,0,0,81.8457,25.3876Z" />
+                    </svg>
+            </a>
+        </section>
 
-        <hr>
-        <ul>
-            <li>HTML and CSS Tutorials</li>
-            <li>JavaScript Manual on <a href="https://learn.javascript.ru/">learnjavascript.ru</a> (in progress)</li>
-            <li>RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)</li>
-        </ul>
-        <hr>
-        <h3 id="languages">Languages:</h3>
-        <ul>
-            <li>English - Intermediate</li>
-            <li>Russian - Native</li>
-            <li>Ukrainian - Intermediate</li>
-        </ul>
-    </div>
+        <section class="contacts" id="cont">
+            <div class="about_me_history">
+                <h2 class="about_me_h">
+                    Contacts
+                </h2>
+                Discord: халиско#5886
+                <br>
+                E-mail: sikretu228@gmail.com
+                <br>
+                Tel: +380677727202
+                <br>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="https://rs.school/js/" class="footer-logo">
+                    <img src="/img/rs_school_js.svg" alt="photo" class="footer-logo-img">
+                </a>
+                <small class="footer-copyrights">
+                    © 2022 by Max Chayka
+                </small>
+            </div>
+            <ul class="footer-social-list">
+                <li class="footer-social-item">
+                    <a href="" class="footer-social-link">
+                        <span class="footer-social-icon footer-social-icon-twitter"></span>
+                    </a>
+                </li>
+                <li class="footer-social-item">
+                    <a href="" class="footer-social-link">
+                        <span class="footer-social-icon footer-social-icon-github"></span>
+                    </a>
+                </li>
+                <li class="footer-social-item">
+                    <a href="" class="footer-social-link">
+                        <span class="footer-social-icon footer-social-icon-linkedin"></span>
+                    </a>
+                </li>
+                <li class="footer-social-item">
+                    <a href="" class="footer-social-link">
+                        <span class="footer-social-icon footer-social-icon-email"></span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
