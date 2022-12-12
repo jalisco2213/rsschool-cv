@@ -1,5 +1,221 @@
-body {
-    font-size: 18px;
-    margin-right: 60px;
-    font-family: 'Times New Roman', Times, serif;
+/* Header */
+.header {
+    height: 100px;
+    border-bottom: 3px solid #e4e4e4;
+    background-color: #645948;
+}
+
+.header-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    margin: auto;
+}
+
+.nav-item {
+    font-size: 20px;
+    line-height: 1;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 100px;
+}
+
+.nav-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.ico-line {
+    fill: #645948;
+}
+
+/* main */
+.section-photo {
+    border-radius: 120px;
+    border: 3px solid #645948;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-container {
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.section-text {
+    text-align: center;
+}
+
+.section-hero-heading,
+.section-hero-description {
+    padding-top: 10px;
+    font-size: 45;
+    color: #645948;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.down-link {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    width: 40px;
+    fill: #645948;
+}
+
+/* about me */
+.education {
+    margin-top: 70px;
+}
+
+.about_me_history {
+    margin: 0 300px;
+    font-family: 'Balsamiq Sans', cursive;
+    font-size: 20px;
+    text-align: center;
+    flex: 1 1 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 30px 20px;
+    outline: 1px solid #645948;
+    border-radius: 50px;
+}
+
+
+.about_me_h {
+    color: #645948;
+}
+
+.skills {
+    margin-top: 70px;
+}
+
+.section-do-list {
+    display: flex;
+    margin-top: 50px;
+}
+
+.section-do-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.section-do-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.section-do-item-heading {
+    font-style: 20px;
+    margin-bottom: 18px;
+    margin-top: 22px;
+    line-height: 1;
+    font-weight: 600;
+    color: #1c1c1c;
+}
+
+.section-do-item-description {
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 300;
+    text-align: center;
+    color: #787878;
+    text-decoration: none;
+}
+
+.down-link_second {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 40px;
+    fill: #645948;
+}
+
+/* footer */
+.footer-container {
+    height: 80px;
+    margin-top: 100px;
+    background-color: #645948;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo-img {
+    width: 100px;
+    margin-left: 20px;
+}
+
+.footer-social-item {
+    list-style-type: none;
+}
+
+.footer-copyrights {
+    font-size: 12px;
+    line-height: 17px;
+    color: #b8b8b8;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.footer-social-list {
+    display: flex;
+    align-items: center;
+}
+
+.footer-social-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.footer-social-icon {
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    background-size: contain;
+    background-position: center center;
+}
+
+.footer-social-icon-twitter {
+    width: 18px;
+    height: 15px;
+    background-image: url(/img/Twitter.png);
+}
+
+.footer-social-icon-linkedin {
+    width: 18px;
+    height: 19px;
+    background-image: url(/img/Linkedin.png);
+    transform: translateY(-2px);
+}
+
+.footer-social-icon-email {
+    width: 24px;
+    height: 17px;
+    background-image: url(/img/Email.png);
+    margin-right: 30px;
+}
+
+.footer-social-icon-github {
+    width: 24px;
+    height: 17px;
+    background-image: url(/img/2613277_code_git_github_hosting_internet_icon.png);
 }
