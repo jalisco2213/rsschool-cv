@@ -197,25 +197,21 @@
 .footer-social-icon-twitter {
     width: 18px;
     height: 15px;
-    background-image: url(/img/Twitter.png);
 }
 
 .footer-social-icon-linkedin {
     width: 18px;
     height: 19px;
-    background-image: url(/img/Linkedin.png);
     transform: translateY(-2px);
 }
 
 .footer-social-icon-email {
     width: 24px;
     height: 17px;
-    background-image: url(/img/Email.png);
     margin-right: 30px;
 }
 
 .footer-social-icon-github {
     width: 24px;
     height: 17px;
-    background-image: url(/img/2613277_code_git_github_hosting_internet_icon.png);
 }
