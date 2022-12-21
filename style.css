@@ -18,6 +18,12 @@
     margin: auto;
 }
 
+.li-cont-about,
+.li-cont {
+    list-style: none;
+    list-style-type: none;
+}
+
 .nav-item {
     font-size: 20px;
     line-height: 1;
